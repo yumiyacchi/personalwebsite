@@ -6,6 +6,7 @@ import { getAnalytics } from "firebase/analytics";
 
 console.log("VITE_FIREBASE_PROJECT_ID:", import.meta.env.VITE_FIREBASE_PROJECT_ID);
 
+
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
@@ -26,4 +27,4 @@ if (typeof window !== "undefined") {
 
 export { db, collection, addDoc, analytics };
 
-console.log("Firebase Config:", firebaseConfig);
+
