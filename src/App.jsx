@@ -3,6 +3,7 @@ import Contact from "./pages/Contact";
 import Events from "./pages/Events";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import Hero from './components/Hero';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
     </Router>     
     <div>
       <Footer />
+      <Hero />
     </div>
     </>
   )

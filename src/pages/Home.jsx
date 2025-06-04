@@ -1,15 +1,19 @@
-
+// Home.jsx
+import React from 'react';
+import Hero from '../components/Hero';
 
 const Home = () => {
   return (
     <div>
-      <h1>¡Bienvenido a un mundo de sonido!</h1>
-      <p>Yumiyacchi es un DJ nacional experto en estilos importados desde el lejano oriente.
-        Con una amplia gama de géneros que van desde el J-Core hasta el K-Pop,
-        el DJ para tu evento geek está acá.
-      </p>
-    </div>
+      {/* Incorporate the Hero component */}
+      <Hero />
 
+      {/* Other Home page content can go here */}
+      <div className="home-content">
+        <h1>Welcome to the Home Page!</h1>
+        <p>This is some additional content on your homepage.</p>
+      </div>
+    </div>
   );
 };
 

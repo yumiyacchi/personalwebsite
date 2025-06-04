@@ -1,0 +1,54 @@
+/* Hero.css */
+
+/* Container for the entire Hero section */
+.hero-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background to contrast embeds and text */
+  box-sizing: border-box;
+}
+
+/* Top section: Holds the YouTube player and introduction text side-by-side */
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Wraps children on smaller screens */
+}
+
+/* Container for the YouTube embed */
+.youtube-container {
+  flex: 1 1 560px;
+  max-width: 560px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the introduction text */
+.intro-text {
+  flex: 1 1 300px;
+  padding: 10px;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Bottom section: Holds the Spotify embed */
+.hero-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional responsiveness tweaks */
+@media (max-width: 768px) {
+  .hero-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .youtube-container,
+  .intro-text {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
