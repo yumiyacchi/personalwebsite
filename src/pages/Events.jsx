@@ -1,8 +1,10 @@
 const Events = () => {
     return (
         <div>
-            <h1>Upcoming Events</h1>
-            <p>Stay tuned for my latest gigs!</p>
+            <h1>Noticias</h1>
+            <p>Entérate de las últimas noticias sobre yumiyacchi. 
+               Los ultimos eventos, singles, música y más. 
+            </p>
         </div>
     );
 };
