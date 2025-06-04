@@ -1,0 +1,73 @@
+/* Navbar container (fixed at the top) */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Inner container to constrain the content width */
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.navbar-logo {
+    margin-right: auto;
+}
+
+/* Logo styling */
+.navbar-logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+ 
+}
+
+.navbar-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+
+/* Navigation styling */
+.navbar-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Unordered list reset and flex properties */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Link styling */
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-links li a:hover {
+  color: #ff9800;
+}
