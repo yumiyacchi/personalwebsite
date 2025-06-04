@@ -4,8 +4,8 @@ const Navbar = () => {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="contact">Contact</Link>
-            <Link to="/events">Events</Link>
+            <Link to="contact">Contacto</Link>
+            <Link to="/events">Noticias</Link>
         </nav>
     );
 };

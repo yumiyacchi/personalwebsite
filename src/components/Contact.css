@@ -1,0 +1,35 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between inputs */
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e68900;
+}

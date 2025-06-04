@@ -25,14 +25,15 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input name="name" type="text" placeholder="Your Name" required onChange={handleChange} />
-      <input name="email" type="email" placeholder="Your Email" required onChange={handleChange} />
+      <input name="name" type="text" placeholder="Nombre" required onChange={handleChange} />
+      <input name="email" type="email" placeholder="Email" required onChange={handleChange} />
       <select name="subject" onChange={handleChange}>
-        <option>Commission Work</option>
-        <option>Bookings</option>
-        <option>General Inquiry</option>
+        <option>Comisiónes</option>
+        <option>Contrataciónes</option>
+        <option>Otras consultas</option>
+        <option>Diseño Web</option>
       </select>
-      <textarea name="message" placeholder="Your Message" onChange={handleChange}></textarea>
+      <textarea name="message" placeholder="Consultas acá" onChange={handleChange}></textarea>
       <button type="submit">Send</button>
     </form>
   );
