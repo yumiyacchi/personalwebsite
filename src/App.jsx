@@ -4,6 +4,7 @@ import Events from "./pages/Events";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Hero from './components/Hero';
+import Navbar from "./components/Navbar";
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
       </Routes>
     </Router>     
     <div>
+      <Navbar />
       <Footer />
       <Hero />
     </div>
