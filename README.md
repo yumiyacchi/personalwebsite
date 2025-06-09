@@ -1,13 +1,17 @@
-# React + Vite
+# Proyecto de Página Web Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template de página web de artista tipo DJ consistente en: 
+- Pagina home con enlaces a YouTube, Spotify, y redes sociales relevantes. 
+- Página de contacto con formulario. 
+- Página de noticias con blog actualizable.
 
-Currently, two official plugins are available:
+Las tecnologías utlizadas son React para frontend, Firebase para backend automatizado, JavaScript como lenguaje de base y Tailwind CSS para estilos. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To Do: 
+- Estilizar el .css y buscar una paleta de colores e imágenes acorde al estilo
+- Incorporar el player de YouTube en el Hero
+- Vincular el backend de Firebase a mi correo y hacer que me envíe e-mails
+- Colgar el sitio web en un vercel
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# personalwebsite" 
+
