@@ -6,15 +6,7 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-top">
         <div className="youtube-container">
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/videoseries?list=YOUR_YOUTUBE_PLAYLIST_ID"
-            title="DJ Sets Playlist"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className="intro-text">
           <p>
@@ -27,7 +19,7 @@ const Hero = () => {
 
       <div className="hero-bottom">
         <iframe
-          src="https://open.spotify.com/embed/playlist/YOUR_SPOTIFY_PLAYLIST_ID"
+          src="https://open.spotify.com/embed/artist/2181g9f1ILOlw6ZHK8aZka?utm_source=generator&theme=0"
           width="300"
           height="380"
           frameBorder="0"

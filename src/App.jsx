@@ -23,7 +23,6 @@ function App() {
     <div>
       <Navbar />
       <Footer />
-      <Hero />
     </div>
     </>
   )
