@@ -1,0 +1,87 @@
+/* Contact.css */
+
+.contact-container {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, rbga(255, 255, 255, 0.1), rbga(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* background-color: #f9f9f9; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.contact-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-container form input,
+.contact-container form select,
+.contact-container form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-container form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-container form button,
+.contact-container form a {
+  padding: 0.75rem 1.5rem;
+  border: solid 2px rgba(red, green, blue, alpha);
+  border-radius: 4px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Botón de envío */
+.contact-container form button {
+  background-color: #a114e8; /* azul similar a Tailwind blue-600 */
+  color: #fff;
+}
+
+.contact-container form button:hover {
+  background-color: #cf901b; /* azul similar a Tailwind blue-700 */
+}
+
+/* Enlace para descargar el Rider */
+.contact-container form a {
+  background-color: #a114e8; /* verde similar a Tailwind green-600 */
+  color: #fff;
+}
+
+.contact-container form a:hover {
+  background-color: #cf901b; /* verde similar a Tailwind green-700 */
+}
+
+/* Ajustes responsivos (opcional) */
+@media (max-width: 640px) {
+  .contact-container {
+    padding: 1rem;
+  }
+  .contact-container h1 {
+    font-size: 1.5rem;
+  }
+}

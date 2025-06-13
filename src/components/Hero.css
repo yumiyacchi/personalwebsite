@@ -48,7 +48,14 @@
   display: flex;
   justify-content: left;
   padding: 20px;
-  border-radius: 1ch;
+  border-radius: 2ch;
+}
+
+.hero-bottom iframe {
+  border: none;
+  border-radius: 14px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 /* Optional responsiveness tweaks */

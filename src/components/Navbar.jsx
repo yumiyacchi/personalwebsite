@@ -15,8 +15,8 @@ const Navbar = () => {
       <figure>
         <img class="top-logo" src="./public/images/toplogo.jpg" alt="Logo" />
         <figcaption>
-          <p class="user-id">Codepen</p>
-          <p class="user-role">Coder</p>
+          <p class="user-id">Yumiyacchi</p>
+          <p class="user-role">Menu</p>
         </figcaption>
       </figure>
     </header>
