@@ -13,11 +13,12 @@ del proyecto.
 - Terminar de conectar con Firebase y hacer que me envíe e-mails a una dirección
 de correo especial para consultas como artista.
 - Buscar hosting barato y empezar el deployment. 
-- Hacer que el Sidebar quede oculto como un toast (!)
+- Hacer que el Sidebar quede oculto como un toast (?) y que salga como un popout en hover
 - Generar un container para flyers de eventos. 
-- Agregar enlaces a mi canal de YouTube y el player de Bandcamp.
+
 
 ## 3.- Añadidos 
 - Botón para entregar .pdf con un rider técnico
 - Arreglar las esquinitas del player de Spotify.
-- Página de contacto completa. Probar cuando Firebase vuelva a la vida. 
+- Página de contacto completa. Probar cuando Firebase vuelva a la vida.
+- Hero completo (?)

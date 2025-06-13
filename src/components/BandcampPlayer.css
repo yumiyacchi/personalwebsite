@@ -1,0 +1,20 @@
+/* BandcampPlayer.css */
+.bandcamp-player {
+  /* Center the player and add some spacing */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 1rem 0;
+  /* Optional: add a background color or other decorative styling */
+  background-color: transparent;
+}
+
+.bandcamp-player iframe {
+  /* Although the inline style already sets these, we can reinforce if needed */
+  border: 0;
+  width: 325px;
+  height: 442px;
+  /* Optional: add a subtle shadow or border-radius if you change your mind later */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
