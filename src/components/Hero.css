@@ -51,6 +51,13 @@
   border-radius: 2ch;
 }
 
+.midtext {
+  color: #000000;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-shadow: 2ch;
+}
+
 .hero-bottom iframe {
   border: none;
   border-radius: 14px !important;

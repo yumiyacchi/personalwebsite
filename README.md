@@ -12,9 +12,9 @@ del proyecto.
 - Terminar el CSS y decidir el estilo general del sitio (90%)
 - Terminar de conectar con Firebase y hacer que me envíe e-mails a una dirección
 de correo especial para consultas como artista.
-- Buscar hosting barato y empezar el deployment. 
+- Subir a Vercel para tener un colgado provisional 
 - Hacer que el Sidebar quede oculto como un toast (?) y que salga como un popout en hover
-- Generar un container para flyers de eventos. 
+- Generar un container para flyers de eventos.
 
 
 ## 3.- Añadidos 

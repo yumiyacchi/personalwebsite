@@ -29,6 +29,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <div className='midtext'>
+        <h1>
+          Escucha mi música acá
+        </h1>
+      </div>
 
       <div className="hero-players">
         <div className="spotify-player">

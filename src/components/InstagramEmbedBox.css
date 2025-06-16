@@ -1,0 +1,13 @@
+.instagram-embed-box {
+    width: 340px;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.embed-container {
+    display: flex;
+    justify-content: flex-end;
+}
