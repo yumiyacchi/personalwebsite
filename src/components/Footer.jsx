@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import * as FaIcons from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,10 +10,10 @@ const Footer = () => {
       <p>&copy; {new Date().getFullYear()} Yumiyacchi | Todos los derechos reservados.</p>
       <div className="social-icons">
         <a href="https://www.instagram.com/yumiyacchi_music/" target="_blank" rel="noopener noreferrer">
-          <FaInstagram />
+          <FaIcons.FaInstagram />
         </a>
         <a href="https://x.com/thejmnavarro" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
+          <FaIcons.FaTwitter />
         </a>
       </div>
     </footer>
