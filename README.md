@@ -9,9 +9,9 @@ en caso de necesitar un backend mas robusto aunque eso quedará a evaluación
 del proyecto. 
 
 ## 2.- To Do:
-- Terminar de conectar con Firebase y hacer que me envíe e-mails a una dirección
-de correo especial para consultas como artista.
-- Subir a Vercel para tener un colgado provisional 
+- Arreglar los mediaquery para hacer el diseño reactivo
+- Cambiar el nombre del dominio (conseguir uno barato para hacerlo oficial)
+- Arreglar la foto del sidebar
 
 
 ## 3.- Añadidos 
@@ -23,3 +23,5 @@ v.1.1.2
 - Añadidas páginas de Eventos y CSS terminado. 
 - Añadido sidebar dinámico 
 - Añadido componente para insertar Instagram 
+v.1.1.3 
+- Deployment listo
