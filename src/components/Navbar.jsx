@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";       // keep it simple
+import "./Navbar.css";
 
 const Navbar = () => (
   <div className="sidebar-hover-zone">
@@ -21,7 +21,7 @@ const Navbar = () => (
           </div>
 
           <figure>
-            <img className="top-logo" src="./public/images/toplogo.jpg" alt="Logo" />
+            <img className="top-logo" src="../public/images/toplogo.jpg" alt="Logo" />
             <figcaption>
               <p className="user-id">Yumiyacchi</p>
               <p className="user-role">Menu</p>
