@@ -30,9 +30,9 @@ const Hero = () => {
         </div>
       </div>
       <div className='midtext'>
-        <h1>
+        <h2>
           Escucha mi música acá
-        </h1>
+        </h2>
       </div>
 
       <div className="hero-players">
